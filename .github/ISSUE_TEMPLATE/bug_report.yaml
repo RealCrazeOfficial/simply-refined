@@ -28,7 +28,7 @@ body:
     attributes:
       label: Describe the Bug
       description: Describe the bug clearly and concisely, including steps on how to reproduce the bug, and what you expected to happen.
-      placeholder: Enter bug description here...
+      placeholder: Bug description, steps to reproduce, expected results...
     validations:
       required: true
 
