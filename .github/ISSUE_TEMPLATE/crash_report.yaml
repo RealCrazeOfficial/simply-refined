@@ -36,7 +36,7 @@ body:
     id: logs
     attributes:
       label: Latest Crash Log
-      description: In Modrinth, click on your Simply Refined modpack, then go to **Logs > Share** and paste the **mclo.gs** link below. Please do not paste the text content of your latest log here, or your issue will be closed.
+      description: In Modrinth, click on your Simply Refined modpack, then go to **Logs > Share** and paste the **mclo.gs** link above. Please do not paste the text content of your latest log here, or your issue will be closed.
       placeholder: E.g. mclo.gs/abcdefg
     validations:
       required: true
