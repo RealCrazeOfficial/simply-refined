@@ -46,5 +46,5 @@ body:
     attributes:
       label: "Please confirm the following:"
       options:
-        - label: I have searched existing issues to make sure this bug wasn’t already reported
+        - label: I have searched existing issues to make sure this crash wasn’t already reported
           required: true
