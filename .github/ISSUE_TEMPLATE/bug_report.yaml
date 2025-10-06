@@ -10,27 +10,16 @@ body:
         Thanks for reporting a problem! Please fill out the details below as completely as possible.
 
   - type: dropdown
-    id: mc_version
-    attributes:
-      label: Minecraft Version
-      description: Which Minecraft version are you using?
-      options:
-        - 1.21.9
-        - 1.21.8
-        - 1.21.7
-        - 1.21.6
-    validations:
-      required: true
-
-  - type: dropdown
     id: modpack_version
     attributes:
       label: Simply Refined Version
-      description: Which Simply Refined version are you using?
+      description: Which version of Simply Refined are you using?
       options:
-        - 1.10.0a (Alpha)
-        - 1.2.1 (Stable)
-        - Other (Please Specify In Description)
+        - 1.21.9 | 1.10.0a (Alpha)
+        - 1.21.8 | 1.2.1 (Stable)
+        - 1.21.7 | 1.2.1 (Stable)
+        - 1.21.6 | 1.2.1 (Stable)
+        - Other (Please Specify In Bug Description)
     validations:
       required: true
 
@@ -39,23 +28,14 @@ body:
     attributes:
       label: Describe the Bug
       description: What happened, and what did you expect to happen?
-      placeholder: "Describe the bug clearly and concisely."
+      placeholder: "Describe the bug clearly and concisely, including steps on how to reproduce the bug."
     validations:
       required: true
-
-  - type: textarea
-    id: logs
-    attributes:
-      label: Latest Log / Spark Profiler
-      description: In Modrinth, click on your Simply Refined modpack, then go to **Logs > Share** and paste the **mclo.gs** link below. Please do not paste the text content of your logs here, or your issue will be closed.
-      render: shell
-    validations:
-      required: false
 
   - type: checkboxes
     id: confirmation
     attributes:
-      label: Checklist
+      label: Please confirm the following:
       options:
         - label: I have searched existing issues to make sure this bug wasn’t already reported
           required: true
