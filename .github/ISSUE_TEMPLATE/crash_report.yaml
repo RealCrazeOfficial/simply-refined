@@ -15,10 +15,10 @@ body:
       label: Simply Refined Version
       description: Which version of Simply Refined are you using?
       options:
-        - 1.21.9 | 1.11.0a (Alpha)
-        - 1.21.8 | 1.2.1 (Stable)
-        - 1.21.7 | 1.2.1 (Stable)
-        - 1.21.6 | 1.2.1 (Stable)
+        - 1.21.9 | 1.0.0b (Beta)
+        - 1.21.8 | 1.2.2 (Stable)
+        - 1.21.7 | 1.2.2 (Stable)
+        - 1.21.6 | 1.2.2 (Stable)
         - Other (Please Specify In Crash Description)
     validations:
       required: true
