@@ -1,7 +1,7 @@
 name: Crash Report
 description: Report a crash in Simply Refined
 title: "[CRASH]: Replace with a brief title about the crash"
-labels: [crash]
+labels: [Crash]
 body:
   - type: markdown
     attributes:
