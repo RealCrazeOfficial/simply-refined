@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report a bug in Simply Refined
 title: "[BUG]: Replace with a brief title about the bug"
-labels: [bug]
+labels: [Bug]
 body:
   - type: markdown
     attributes:
