@@ -15,7 +15,7 @@ body:
       label: Simply Refined Version
       description: Which version of Simply Refined are you using?
       options:
-        - 1.21.11 | 1.0.0a (Alpha)
+        - 1.21.11 | 1.1.0a (Alpha)
         - 1.21.10 | 1.1.1 (Stable)
         - 1.21.9 | 1.9.1b (Beta)
         - 1.21.8 | 1.6.1 (Stable)
