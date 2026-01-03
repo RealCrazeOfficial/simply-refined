@@ -15,13 +15,13 @@ body:
       label: Simply Refined Version
       description: Which version of Simply Refined are you using?
       options:
-        - 1.21.11 | 1.3.0a (Alpha)
-        - 1.21.10 | 1.1.4 (Stable)
-        - 1.21.9 | 1.9.4b (Beta)
-        - 1.21.8 | 1.6.4 (Stable)
-        - 1.21.7 | 1.6.4 (Stable)
-        - 1.21.6 | 1.6.4 (Stable)
-        - 1.20.1 | 1.4.2 (Stable)
+        - 1.21.11 | 1.4.0a (Alpha)
+        - 1.21.10 | 1.1.5 (Stable)
+        - 1.21.9 | 1.9.5b (Beta)
+        - 1.21.8 | 1.6.5 (Stable)
+        - 1.21.7 | 1.6.5 (Stable)
+        - 1.21.6 | 1.6.5 (Stable)
+        - 1.20.1 | 1.4.3 (Stable)
         - Other (Please Specify In Bug Description)
     validations:
       required: true
